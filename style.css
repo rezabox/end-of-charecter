@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+}
+body{
+   font-family: sans-serif;
+   margin-top: -05%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box_outline{
+      width: 400px;
+      position: relative;
+}
+.box_outline .box{
+    width: 100%;
+}
+.box_outline .box textarea{
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 2px solid gray;
+    font-family: sans-serif;
+
+}
+#text-remaining{
+    position: absolute;
+     margin-top: -30px;
+     margin-left:60%;
+}
